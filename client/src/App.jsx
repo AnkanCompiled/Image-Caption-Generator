@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className="flex flex-col gap-4 h-screen">
-      <div className="bg-blue-300 text-white text-3xl font-bold p-4 shadow-lg">Caption Generator</div>
+      <div className="bg-blue-300 text-white text-3xl font-bold p-4 shadow-lg">BLIP</div>
       <div className="flex justify-center">
         <div {...getRootProps()} className="cursor-pointer flex flex-col items-center justify-center w-[90vw] h-[20vh] rounded-md border-2 border-dashed border-gray-400 hover:border-blue-400 duration-150 ease-out">
           <input {...getInputProps()} />
